@@ -1,0 +1,9 @@
+> library(readxl)
+> datafile_1_ <- read_excel("C:/Users/fedri/Downloads/datafile (1).xls")
+> View(datafile_1_)
+> priyanka <- read_excel("C:/Users/fedri/Downloads/datafile (1).xls")
+> mean(priyanka$max_price)
+[1] 2284.54
+> sd(priyanka$modal_price)
+[1] 1261.217
+> 
